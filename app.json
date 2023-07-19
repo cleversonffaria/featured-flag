@@ -1,0 +1,10 @@
+{
+  "expo": {
+    "name": "featured-flag",
+    "slug": "featured-flag",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  }
+}
