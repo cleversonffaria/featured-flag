@@ -1,0 +1,21 @@
+{
+  "cli": {
+    "version": ">= 3.15.1"
+  },
+  "build": {
+    "dev": {
+      "channel": "dev",
+      "distribution": "internal",
+      "android": {
+        "gradleCommand": ":app:assembleRelease"
+      }
+    },
+    "preview": {
+      "distribution": "internal"
+    },
+    "prod": {}
+  },
+  "submit": {
+    "production": {}
+  }
+}
