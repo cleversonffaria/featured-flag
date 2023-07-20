@@ -33,6 +33,14 @@ PODS:
   - hermes-engine (0.71.8):
     - hermes-engine/Pre-built (= 0.71.8)
   - hermes-engine/Pre-built (0.71.8)
+  - LaunchDarkly (8.0.0):
+    - LaunchDarkly/Core (= 8.0.0)
+  - launchdarkly-react-native-client-sdk (7.1.6):
+    - LaunchDarkly (= 8.0.0)
+    - React-Core
+  - LaunchDarkly/Core (8.0.0):
+    - LDSwiftEventSource (= 3.0.0)
+  - LDSwiftEventSource (3.0.0)
   - libevent (2.1.12)
   - RCT-Folly (2021.07.22.00):
     - boost
@@ -386,6 +394,7 @@ DEPENDENCIES:
   - FBReactNativeSpec (from `../node_modules/react-native/React/FBReactNativeSpec`)
   - glog (from `../node_modules/react-native/third-party-podspecs/glog.podspec`)
   - hermes-engine (from `../node_modules/react-native/sdks/hermes-engine/hermes-engine.podspec`)
+  - launchdarkly-react-native-client-sdk (from `../node_modules/launchdarkly-react-native-client-sdk`)
   - libevent (~> 2.1.12)
   - RCT-Folly (from `../node_modules/react-native/third-party-podspecs/RCT-Folly.podspec`)
   - RCTRequired (from `../node_modules/react-native/Libraries/RCTRequired`)
@@ -420,6 +429,8 @@ DEPENDENCIES:
 SPEC REPOS:
   trunk:
     - fmt
+    - LaunchDarkly
+    - LDSwiftEventSource
     - libevent
 
 EXTERNAL SOURCES:
@@ -451,6 +462,8 @@ EXTERNAL SOURCES:
     :podspec: "../node_modules/react-native/third-party-podspecs/glog.podspec"
   hermes-engine:
     :podspec: "../node_modules/react-native/sdks/hermes-engine/hermes-engine.podspec"
+  launchdarkly-react-native-client-sdk:
+    :path: "../node_modules/launchdarkly-react-native-client-sdk"
   RCT-Folly:
     :podspec: "../node_modules/react-native/third-party-podspecs/RCT-Folly.podspec"
   RCTRequired:
@@ -524,6 +537,9 @@ SPEC CHECKSUMS:
   fmt: ff9d55029c625d3757ed641535fd4a75fedc7ce9
   glog: 04b94705f318337d7ead9e6d17c019bd9b1f6b1b
   hermes-engine: 47986d26692ae75ee7a17ab049caee8864f855de
+  LaunchDarkly: e73c26ce2fc2b719730e0dd38c9abe761e33287a
+  launchdarkly-react-native-client-sdk: 7e53f24190afb7e2603efbc042f9d09a5f022852
+  LDSwiftEventSource: 824ce51a4fa8e79498c9b67ae672bfa802bd7464
   libevent: 4049cae6c81cdb3654a443be001fb9bdceff7913
   RCT-Folly: 424b8c9a7a0b9ab2886ffe9c3b041ef628fd4fb1
   RCTRequired: 8af6a32dfc2b65ec82193c2dee6e1011ff22ac2a

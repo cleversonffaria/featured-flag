@@ -3,8 +3,14 @@
     "name": "featured-flag",
     "slug": "featured-flag",
     "version": "1.0.0",
+    "owner": "cleversonfaria",
     "assetBundlePatterns": [
       "**/*"
-    ]
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "cb361653-b567-426d-8ef5-aa59d11eb77d"
+      }
+    }
   }
 }
